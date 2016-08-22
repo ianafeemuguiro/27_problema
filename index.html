@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+</head>
+<body>
+	<header>
+		<div class="container-fluid">
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-7 col-md-6 col-lg-3">
+							<h2>James Bomb</h2>
+						</div>
+						<div class="col-xs-2 col-md-3 col-lg-2">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><span class="glyphicon glyphicon-home icon1"></span>&nbsp;Noticias</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-2 col-md-3 col-lg-2">
+							<ul class="nav navbar-nav">		
+								<li><a href="#"><span class="glyphicon glyphicon-home icon2"></span>&nbsp;Enlaces RSS</a></li>
+							</ul>
+						</div>
+						<div class="hidden-xs hidden-sm col-lg-1">
+							<p class="line">|</p>
+						</div>
+						<div class="hidden-xs hidden-sm col-lg-3">
+							<form> <input type="text" name="firstname" value="Ingresa tu busqueda"><br></form>	
+						</div>
+						<div class="hidden-xs hidden-sm col-lg-1">
+							<button>Buscar</button>	
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">						
+						<div class="col-xs-12 col-sm-12 col-lg-12">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+								<span class="sr-only">Menu</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="collapse navbar-collapse text-center" id="navbar-1">
+								<ul class="nav navbar-nav">
+									<li><a href="#"><em>Bienvenido</em></a></li>
+									<li><a href="#"><em>Actualidades</em></a></li>
+									<li><a href="#"><em>En Directo</em></a></li>
+									<li><a href="#"><em>Reporte Financiero</em></a></li>
+									<li><a href="#"><em>Nuestra Oferta</em></a></li>
+									<li><a href="#"><em>De Nosotros a Usted</em></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="container-fluid"> <!--Container general-->
+		<section> <!--El section encierra todo-->
+			<div class="row"> <!--Row papa-->
+				<div class="col-lg-6"> <!--Columna 1-->
+					<div class="row"> <!--Row de la columna 1-->
+						<div class="col-xs-12 col-sm-7 col-lg-12">		
+							<div class="text1">Historias Destadas</div>
+							<h6>Artículo | <span><small class="text-muted">publicado el 09/10/15</small></span></h6>
+							<h3>Lorem ipsum et diligat gentris</h3>
+							<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Ver más...</p>    
+							<p><span class="glyphicon glyphicon-tag"></span>&nbsp;Etiquetas: <u>&nbsp;lorem&nbsp;</u> <u>&nbsp;impsum&nbsp;</u> <u>&nbsp;diligat&nbsp;</u></p>
+							<hr class="line-border">
+						</div>		
+						<div class="col-xs-12 col-sm-7 col-lg-12"> <!--Bloque hijo-->
+							<div class="text2">Webzone</div>
+							<h6>Artículo | <span><small class="text-muted">publicado el 09/10/15</small></span></h6>
+							<h3>Lorem ipsum et diligat gentris</h3>
+							<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Ver más...</p>    
+							<p><span class="glyphicon glyphicon-tag"></span>&nbsp;Etiquetas: <u>&nbsp;lorem&nbsp;</u> <u>&nbsp;impsum&nbsp;</u> <u>&nbsp;diligat&nbsp;</u></p>
+							<hr class="line-border">
+						</div>	
+						<div class="col-xs-12 col-sm-7 col-lg-12"> <!--Bloque hijo-->
+							<h6>Artículo | <span><small class="text-muted">publicado el 09/10/15</small></span></h6>
+							<h3>Etiam lorem et suspira nostres</h3>
+							<img class="img-size" src="img/jamebomb.jpg">
+							<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Ver más...</p>    
+							<p><span class="glyphicon glyphicon-tag"></span>&nbsp;Etiquetas: <u>&nbsp;lorem&nbsp;</u><u>&nbsp;impsum&nbsp;</u> <u>&nbsp;diligat&nbsp;</u></p>
+							<hr class="line-border">
+						</div>
+						<div class="col-xs-12 col-sm-7 col-lg-12"> <!--Bloque hijo-->
+							<h3>Lorem ipsum et diligat gentris</h3>
+							<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Ver más...</p>    
+							<p><span class="glyphicon glyphicon-tag"></span>&nbsp;Etiquetas: <u>&nbsp;lorem&nbsp;</u> <u>&nbsp;impsum&nbsp;</u> <u>&nbsp;diligat&nbsp;</u></p>
+						</div>
+					</div>
+				</div>	
+				<aside> <!--El aside encierra las dos columas-->
+					<div class="col-lg-3"> <!--Columna 2-->
+						<div class="row"> <!--Row de la columna 2-->
+							<div class="col-xs-12 col-sm-5 col-lg-12">		
+								<div class="text3">Historia Destacada</div>
+								<iframe src="https://player.vimeo.com/video/178441828" width="304" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+								<p><a href="https://vimeo.com/178441828">James Bomb Music Video</a> from <a href="https://vimeo.com/henrikvdl"></a><a href="https://vimeo.com"></a>.</p>
+								<h4>Claire Dupond</h4>
+								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<p><small>Publicado el 05/10/15&nbsp;&nbsp;<span class="glyphicon glyphicon-bookmark"></span>Ver más...</small></p>
+								<hr class="line-border">
+							</div>
+							<hr class="line-border">
+							<div class="col-xs-12 col-md-5 col-lg-12"> <!--Bloque hijo-->
+								<div class="text1">Agenda</div>
+								<div class="box-date">23 de Enero</div>
+								<h6 class="margin-text">Lorem ipsum et diligat</h6>
+								<div class="box-date">23 de Enero</div>
+								<h6 class="margin-text">Lorem ipsum et diligat</h6>
+								<div class="box-date">23 de Enero</div>
+								<h6 class="margin-text">Lorem ipsum et diligat</h6>
+								<div class="box-date">23 de Enero</div>
+								<h6 class="margin-text">Lorem ipsum et diligat</h6>
+								<hr class="line-border">
+							</div>
+							<div class="col-xs-12 col-md-5 col-lg-12"> <!--Bloque hijo-->
+								<h3>Más información</h3>
+								<h6><u><strong>Localidades</strong></u></h6>
+								<h5>Lorem ipsum et diligat</h5>
+								<p>Lorem ipsum dolor sit amat consectuaur</p>
+								<h6><u><strong>Hospimedia</strong></u></h6>
+								<h5>Lorem ipsum et diligat</h5>
+								<p>Lorem ipsum dolor sit amat consectuaur</p>
+							</div>
+						</div>
+						<hr class="line-border">
+					</div>	 
+					<div class="hidden-xs hidden-sm col-lg-3"> <!--Columna 3-->
+						<div class="row"> <!--Row de la columna 3-->
+							<div class=" hidden-xs hidden-sm col-lg-12">		
+								<h4 class="margin-info">&nbsp;Más información</h4>
+								<p class="margin-info"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Finanzas y fiscalización</p> 
+								<p class="margin-info"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Inversión y equipos</p>
+								<p class="margin-info"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Medio ambiente</p>
+								<p class="margin-info"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Habitat / Urbanismo</p>
+								<p class="margin-info"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Sanidad</p>
+								<p class="margin-info"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Social / Servicios</p>   
+								<p class="margin-info"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Transporte</p>  
+							</div>	
+							<div class="hidden-xs hidden-sm col-lg-12"> <!--Bloque hijo-->
+								<h4 class="margin-info">MAGAZINE<br><strong>ECODEFI</strong></h4>
+								<p class="text-muted margin-info">ENQUETE</p>
+								<p class="text-justify text-muted margin-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+								<h6 class="text-muted margin-info">Preguntas</h6>
+								<p class="text-justify text-muted margin-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+							</div>	
+							<div class="hidden-xs hidden-sm col-lg-12"> <!--Bloque hijo-->
+								<h4 class="margin-info">MAGAZINE<br><strong>ACCIONES</strong></h4>
+									<p class="text-justify text-muted margin-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+								<h6 class="text-muted margin-info">Preguntas</h6>
+								<p class="text-justify text-muted margin-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+							</div>	
+							<div class="col-lg-12"> <!--Bloque hijo-->
+								<p class="text-justify margin-info"><strong>Nueva generación de la internet</strong></p>
+							</div>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</section>
+		<footer>
+		<hr class="line-border">
+			<div class="container-fluid">
+				<div class="row ">
+					<div class="col-xs-6 col-sm-3 col-lg-3">
+						<h6>Rubros</h6>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Actualidades</p> 
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;En directo</p>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Reporte financiero</p>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Nuestra oferta</p> 
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;De Nosotros a ustedes</p>
+					</div>	
+					<div class="hidden-xs hidden-sm col-lg-2">
+						<h6>Expertise</h6>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Finanzas y fiscalización</p> 
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Investigación y equipos</p>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Medio ambiente</p>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Habitat/Urbanismo</p> 
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Sanidad</p>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Social/Servicios</p> 
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Transporte</p>
+					</div>	
+					<div class="col-xs-6 col-sm-3 col-lg-2">
+						<h6>Suscripción</h6>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Todo el flujo</p> 
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Flujo RSS para expertos</p>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Noticias</p>
+					</div>	
+					<div class="col-xs-6 col-sm-3 col-lg-3">
+						<h6>Nosotros</h6>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;¿Quienes somos?</p> 
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Plan de sitio</p>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Información legal</p>
+					</div>	
+					<div class="col-xs-6 col-sm-3 col-lg-2">
+						<h6>Contacto</h6>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Contáctanos</p> 
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;FAQ</p>
+						<p><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Haga sus preguntas</p>
+					</div>
+				</div>
+			</div>
+		</footer>	
+	</div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
